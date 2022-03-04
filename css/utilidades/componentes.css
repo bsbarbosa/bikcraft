@@ -1,3 +1,12 @@
+.container {
+  box-sizing: border-box; /* Com essa prop, nao e necessario tirar a qtd do padding no max-width*/
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button {
   display: inline-block;
   padding: 16px 32px;
