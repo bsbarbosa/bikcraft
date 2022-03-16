@@ -36,6 +36,14 @@
   gap: 16px;
 }
 
+.fr-instagram:hover,
+.fr-facebook:hover,
+.fr-youtube:hover {
+  opacity: 50%;
+  transform: translateY(-2px);
+  transition: 0.8s;
+}
+
 .footer a:hover {
   color: var(--cor-0);
 }
